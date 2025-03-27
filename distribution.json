@@ -1,0 +1,439 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "LincoRail-1.20.1",
+      "name": "린코레일:제주행",
+      "description": "Minecraft 1.20.1 (Fabric v0.16.10)",
+      "icon": "https://github.com/mchdistro/LincoRail/raw/main/server-icon.png",
+      "version": "1.0.0",
+      "address": "린코레일.서버.한국",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.16.10",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1387408,
+            "MD5": "239d59118dec4324672b3d9e9d75efef",
+            "url": "https://github.com/mchdistro/LincoRail/raw/main/repo/lib/net/fabricmc/fabric-loader/0.16.10/fabric-loader-0.16.10.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-fabric-0.16.10",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2859,
+                "MD5": "0f2656e2b6012fbd40de7b55dd3139d1",
+                "url": "https://github.com/mchdistro/LincoRail/raw/main/repo/versions/1.20.1-fabric-0.16.10/1.20.1-fabric-0.16.10.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.7.1",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126093,
+                "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
+                "url": "https://github.com/mchdistro/LincoRail/raw/main/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.7.1",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35126,
+                "MD5": "4cd9e7178dfb85371bba3077e40cd514",
+                "url": "https://github.com/mchdistro/LincoRail/raw/main/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.7.1",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73459,
+                "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
+                "url": "https://github.com/mchdistro/LincoRail/raw/main/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.7.1",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51939,
+                "MD5": "e85029f613b6469989cc7cf53fe06b74",
+                "url": "https://github.com/mchdistro/LincoRail/raw/main/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.7.1",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94519,
+                "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
+                "url": "https://github.com/mchdistro/LincoRail/raw/main/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.15.4+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1494834,
+                "MD5": "991ca8be2c408fe19eb64014d8a18243",
+                "url": "https://github.com/mchdistro/LincoRail/raw/main/repo/lib/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.20.1",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 573365,
+                "MD5": "3f4768ac751cac3418266d1d7aa15f55",
+                "url": "https://github.com/mchdistro/LincoRail/raw/main/repo/lib/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "moe.plushie.armourers_workshop.init.platform.fabric.proxy:armourers_workshop:2.1.4@jar",
+          "name": "Armourer's Workshop",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3788556,
+            "url": "https://github.com/mchdistro/LincoRail/raw/main/servers/LincoRail-1.20.1/fabricmods/required/armourersworkshop-fabric-1.20.1-2.1.4.jar",
+            "MD5": "8a7da34eb74d7f6edcb6051c54823173"
+          }
+        },
+        {
+          "id": "me.shedaniel.autoconfig.example:cloth-config:11.1.136@jar",
+          "name": "Cloth Config v11",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1172214,
+            "url": "https://github.com/mchdistro/LincoRail/raw/main/servers/LincoRail-1.20.1/fabricmods/required/cloth-config-11.1.136-fabric.jar",
+            "MD5": "45d8bada7797af61d1f5543313b1f9f0"
+          }
+        },
+        {
+          "id": "net.cocoonmc.runtime:cocoon_rt:2.0.1@jar",
+          "name": "Cocoon Runtime Library",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 381379,
+            "url": "https://github.com/mchdistro/LincoRail/raw/main/servers/LincoRail-1.20.1/fabricmods/required/cocoon-rt-2.0.1.jar",
+            "MD5": "cf969132ca54976946b5e0f6dec178f1"
+          }
+        },
+        {
+          "id": "io.github.kvverti:colormatic:3.1.3@jar",
+          "name": "Colormatic",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 221006,
+            "url": "https://github.com/mchdistro/LincoRail/raw/main/servers/LincoRail-1.20.1/fabricmods/required/colormatic-3.1.3+mc.1.20.1.jar",
+            "MD5": "f536f0e695ca4e11ed02a3322262cacf"
+          }
+        },
+        {
+          "id": "me.pepperbell:continuity:3.0.0+1.20.1@jar",
+          "name": "Continuity",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1016063,
+            "url": "https://github.com/mchdistro/LincoRail/raw/main/servers/LincoRail-1.20.1/fabricmods/required/continuity-3.0.0+1.20.1.jar",
+            "MD5": "d180631d4db7588393f1d0c280593bc3"
+          }
+        },
+        {
+          "id": "traben.entity_model_features:entity_model_features:2.4.1@jar",
+          "name": "Entity Model Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 444272,
+            "url": "https://github.com/mchdistro/LincoRail/raw/main/servers/LincoRail-1.20.1/fabricmods/required/entity_model_features_fabric_1.20.1-2.4.1.jar",
+            "MD5": "9979ce497513b57a72175d80167a3fe5"
+          }
+        },
+        {
+          "id": "traben.entity_texture_features:entity_texture_features:6.2.9@jar",
+          "name": "Entity Texture Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 652400,
+            "url": "https://github.com/mchdistro/LincoRail/raw/main/servers/LincoRail-1.20.1/fabricmods/required/entity_texture_features_fabric_1.20.1-6.2.9.jar",
+            "MD5": "69e81059aa60c49bc9c97918d4640edd"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.92.1+1.20.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2106811,
+            "url": "https://github.com/mchdistro/LincoRail/raw/main/servers/LincoRail-1.20.1/fabricmods/required/fabric-api-0.92.1+1.20.1.jar",
+            "MD5": "686c88c0f615e58e9fbd13c678fe543a"
+          }
+        },
+        {
+          "id": "fuzs.forgeconfigapiport.impl:forgeconfigapiport:8.0.0@jar",
+          "name": "Forge Config API Port",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 397198,
+            "url": "https://github.com/mchdistro/LincoRail/raw/main/servers/LincoRail-1.20.1/fabricmods/required/ForgeConfigAPIPort-v8.0.0-1.20.1-Fabric.jar",
+            "MD5": "9b680a583230400e887dc545aa974936"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:iceberg:1.1.18@jar",
+          "name": "Iceberg",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 123781,
+            "url": "https://github.com/mchdistro/LincoRail/raw/main/servers/LincoRail-1.20.1/fabricmods/required/Iceberg-1.20.1-fabric-1.1.18.jar",
+            "MD5": "6ea7e424f1c45e2bd6ac84b2e1b8955a"
+          }
+        },
+        {
+          "id": "link.infra:indium:1.0.30+mc1.20.4@jar",
+          "name": "Indium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 104805,
+            "url": "https://github.com/mchdistro/LincoRail/raw/main/servers/LincoRail-1.20.1/fabricmods/required/indium-1.0.30+mc1.20.4.jar",
+            "MD5": "e0b3675f1e6e8f00da58d42ec1bd1be7"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.7.0+mc1.20.1@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2668790,
+            "url": "https://github.com/mchdistro/LincoRail/raw/main/servers/LincoRail-1.20.1/fabricmods/required/iris-1.7.0+mc1.20.1.jar",
+            "MD5": "4fffc15dba4b021e626beea0ec00099b"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:5.10.3@jar",
+          "name": "Journeymap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7209178,
+            "url": "https://github.com/mchdistro/LincoRail/raw/main/servers/LincoRail-1.20.1/fabricmods/required/journeymap-1.20.1-5.10.3-fabric.jar",
+            "MD5": "0daacf8f13dd33450a970601cf21d627"
+          }
+        },
+        {
+          "id": "com.hyfata.najoan:koreanpatch:1.3.1-1.20.1@jar",
+          "name": "Korean Patch",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 39387,
+            "url": "https://github.com/mchdistro/LincoRail/raw/main/servers/LincoRail-1.20.1/fabricmods/required/koreanpatch-1.3.1-1.20.1.jar",
+            "MD5": "6fdcbf1aadc8dcdf9d5673269417dc4c"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:legendarytooltips:1.4.5@jar",
+          "name": "Legendary Tooltips",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 63969,
+            "url": "https://github.com/mchdistro/LincoRail/raw/main/servers/LincoRail-1.20.1/fabricmods/required/LegendaryTooltips-1.20.1-fabric-1.4.5.jar",
+            "MD5": "da13b6865a45746799f4465409509a52"
+          }
+        },
+        {
+          "id": "fi.dy.masa:malilib:0.16.3@jar",
+          "name": "MaLiLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 545403,
+            "url": "https://github.com/mchdistro/LincoRail/raw/main/servers/LincoRail-1.20.1/fabricmods/required/malilib-fabric-1.20.1-0.16.3.jar",
+            "MD5": "007a02b4cbca762018d2a56237d36631"
+          }
+        },
+        {
+          "id": "com.aizistral:nochatreports:1.20.1-v2.2.2@jar",
+          "name": "No Chat Reports",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 619812,
+            "url": "https://github.com/mchdistro/LincoRail/raw/main/servers/LincoRail-1.20.1/fabricmods/required/NoChatReports-FABRIC-1.20.1-v2.2.2.jar",
+            "MD5": "62ebb770ad9e08008abf6df50a6a1aa7"
+          }
+        },
+        {
+          "id": "generated.fabricmod:prism:1.0.5@jar",
+          "name": "Prism",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 57257,
+            "url": "https://github.com/mchdistro/LincoRail/raw/main/servers/LincoRail-1.20.1/fabricmods/required/Prism-1.20.1-fabric-1.0.5.jar",
+            "MD5": "2eed6d81c1b72c75646d33b1b5d9dcfe"
+          }
+        },
+        {
+          "id": "com.misterpemodder:shulkerboxtooltip:4.0.4+1.20.1@jar",
+          "name": "Shulker Box Tooltip",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1215695,
+            "url": "https://github.com/mchdistro/LincoRail/raw/main/servers/LincoRail-1.20.1/fabricmods/required/shulkerboxtooltip-fabric-4.0.4+1.20.1.jar",
+            "MD5": "c344d20e5898c0fe21156c36a755c3cb"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:sodium:0.5.8+mc1.20.1@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 942134,
+            "url": "https://github.com/mchdistro/LincoRail/raw/main/servers/LincoRail-1.20.1/fabricmods/required/sodium-fabric-0.5.8+mc1.20.1.jar",
+            "MD5": "68e366d87fa5c614d64ce031ff548e30"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.20.1-2.5.14@jar",
+          "name": "Simple Voice Chat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 8057403,
+            "url": "https://github.com/mchdistro/LincoRail/raw/main/servers/LincoRail-1.20.1/fabricmods/required/voicechat-fabric-1.20.1-2.5.14.jar",
+            "MD5": "66ad8323370d5537269df68f80033210"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 5435,
+            "url": "https://github.com/mchdistro/LincoRail/raw/main/servers/LincoRail-1.20.1/files/options.txt",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "font.zip",
+          "name": "font.zip",
+          "type": "File",
+          "artifact": {
+            "size": 916575,
+            "url": "https://github.com/mchdistro/LincoRail/raw/main/servers/LincoRail-1.20.1/files/resourcepacks/font.zip",
+            "MD5": "2c5c784e90ff9d5ceaf6e411f69bfe90",
+            "path": "resourcepacks/font.zip"
+          }
+        },
+        {
+          "id": "lincoRail.zip",
+          "name": "lincoRail.zip",
+          "type": "File",
+          "artifact": {
+            "size": 888615,
+            "url": "https://github.com/mchdistro/LincoRail/raw/main/servers/LincoRail-1.20.1/files/resourcepacks/lincoRail.zip",
+            "MD5": "86851f7be50e14cdc834c7197fff836b",
+            "path": "resourcepacks/lincoRail.zip"
+          }
+        },
+        {
+          "id": "Patrix_1.20_32x_basic.zip",
+          "name": "Patrix_1.20_32x_basic.zip",
+          "type": "File",
+          "artifact": {
+            "size": 53321921,
+            "url": "https://github.com/mchdistro/LincoRail/raw/main/servers/LincoRail-1.20.1/files/resourcepacks/Patrix_1.20_32x_basic.zip",
+            "MD5": "3d81842857549a885ffceeb2114eed74",
+            "path": "resourcepacks/Patrix_1.20_32x_basic.zip"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://github.com/mchdistro/LincoRail/raw/main/servers/LincoRail-1.20.1/files/servers.dat",
+            "path": "servers.dat"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.1.1 (1).zip",
+          "name": "ComplementaryUnbound_r5.1.1 (1).zip",
+          "type": "File",
+          "artifact": {
+            "size": 409957,
+            "url": "https://github.com/mchdistro/LincoRail/raw/main/servers/LincoRail-1.20.1/files/shaderpacks/ComplementaryUnbound_r5.1.1%20(1).zip",
+            "MD5": "da7fc4c86b12e65f4f70b3a9aaabae90",
+            "path": "shaderpacks/ComplementaryUnbound_r5.1.1 (1).zip"
+          }
+        },
+        {
+          "id": "photon_v1.0a.zip",
+          "name": "photon_v1.0a.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1558823,
+            "url": "https://github.com/mchdistro/LincoRail/raw/main/servers/LincoRail-1.20.1/files/shaderpacks/photon_v1.0a.zip",
+            "MD5": "ffcfb4e8f28620b32e1f88fd2ecd8cbb",
+            "path": "shaderpacks/photon_v1.0a.zip"
+          }
+        },
+        {
+          "id": "photon_v1.0a.zip.txt",
+          "name": "photon_v1.0a.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 583,
+            "url": "https://github.com/mchdistro/LincoRail/raw/main/servers/LincoRail-1.20.1/files/shaderpacks/photon_v1.0a.zip.txt",
+            "MD5": "2a32bec3c13cce51862a27370f4c488f",
+            "path": "shaderpacks/photon_v1.0a.zip.txt"
+          }
+        },
+        {
+          "id": "§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV91.1§r§l.zip",
+          "name": "§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV91.1§r§l.zip",
+          "type": "File",
+          "artifact": {
+            "size": 3182803,
+            "url": "https://github.com/mchdistro/LincoRail/raw/main/servers/LincoRail-1.20.1/files/shaderpacks/%C2%A7r%C2%A7lAstra%C2%A74%C2%A7lLex%C2%A7r%C2%A7l_By_LexBoosT_%C2%A74%C2%A7lV91.1%C2%A7r%C2%A7l.zip",
+            "MD5": "89430da2ac4c92cab632b2c3a84a513a",
+            "path": "shaderpacks/§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV91.1§r§l.zip"
+          }
+        },
+        {
+          "id": "§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV91.1§r§l.zip.txt",
+          "name": "§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV91.1§r§l.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1267,
+            "url": "https://github.com/mchdistro/LincoRail/raw/main/servers/LincoRail-1.20.1/files/shaderpacks/%C2%A7r%C2%A7lAstra%C2%A74%C2%A7lLex%C2%A7r%C2%A7l_By_LexBoosT_%C2%A74%C2%A7lV91.1%C2%A7r%C2%A7l.zip.txt",
+            "MD5": "8cdab49d8d66765eb75673b5a86b8835",
+            "path": "shaderpacks/§r§lAstra§4§lLex§r§l_By_LexBoosT_§4§lV91.1§r§l.zip.txt"
+          }
+        }
+      ]
+    }
+  ]
+}
