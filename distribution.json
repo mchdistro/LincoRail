@@ -316,6 +316,16 @@
           }
         },
         {
+          "id": "bot.colla:soop:1.0@jar",
+          "name": "Soop",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 44829,
+            "url": "https://github.com/mchdistro/LincoRail/raw/main/servers/LincoRail-1.20.1/fabricmods/required/soop-fabric-1.0.jar",
+            "MD5": "f002e6078e47c697eecfa3f26d61ee4b"
+          }
+        },
+        {
           "id": "de.maxhenkel:voicechat:1.20.1-2.5.14@jar",
           "name": "Simple Voice Chat",
           "type": "FabricMod",
