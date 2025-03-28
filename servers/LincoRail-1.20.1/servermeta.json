@@ -5,7 +5,7 @@
     "name": "린코레일:제주행",
     "description": "Minecraft 1.20.1 (Fabric v0.16.10)",
     "icon": "https://github.com/mchdistro/LincoRail/raw/main/server-icon.png",
-    "address": "172.65.172.32:32194",
+    "address": "211.53.196.191:32194",
     "discord": {
       "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
       "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",

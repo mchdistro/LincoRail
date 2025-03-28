@@ -13,7 +13,7 @@
       "description": "Minecraft 1.20.1 (Fabric v0.16.10)",
       "icon": "https://github.com/mchdistro/LincoRail/raw/main/server-icon.png",
       "version": "1.0.0",
-      "address": "172.65.172.32:32194",
+      "address": "211.53.196.191:32194",
       "minecraftVersion": "1.20.1",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -393,9 +393,9 @@
           "name": "servers.dat",
           "type": "File",
           "artifact": {
-            "size": 67,
+            "size": 68,
             "url": "https://github.com/mchdistro/LincoRail/raw/main/servers/LincoRail-1.20.1/files/servers.dat",
-            "MD5": "f274ca9a6c58f27c4d6fc04a2dfb6db9",
+            "MD5": "bab78541d12dcd3c8304f57c5cb14a56",
             "path": "servers.dat"
           }
         },
