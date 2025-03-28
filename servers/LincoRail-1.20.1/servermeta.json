@@ -5,7 +5,7 @@
     "name": "린코레일:제주행",
     "description": "Minecraft 1.20.1 (Fabric v0.16.10)",
     "icon": "https://github.com/mchdistro/LincoRail/raw/main/server-icon.png",
-    "address": "린코레일.서버.한국",
+    "address": "172.65.172.32:34864",
     "discord": {
       "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
       "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -20,7 +20,7 @@
   "untrackedFiles": [
     {
       "appliesTo": ["files"],
-      "patterns": ["servers.dat", "options.txt", "config/iris.properties"]
+      "patterns": ["options.txt", "config/iris.properties"]
     }
   ]
 }
