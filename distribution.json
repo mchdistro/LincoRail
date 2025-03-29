@@ -276,16 +276,6 @@
           }
         },
         {
-          "id": "com.aizistral:nochatreports:1.20.1-v2.2.2@jar",
-          "name": "No Chat Reports",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 619812,
-            "url": "https://github.com/mchdistro/LincoRail/raw/main/servers/LincoRail-1.20.1/fabricmods/required/NoChatReports-FABRIC-1.20.1-v2.2.2.jar",
-            "MD5": "62ebb770ad9e08008abf6df50a6a1aa7"
-          }
-        },
-        {
           "id": "generated.fabricmod:prism:1.0.5@jar",
           "name": "Prism",
           "type": "FabricMod",
