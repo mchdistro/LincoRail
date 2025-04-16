@@ -118,14 +118,13 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
+key_key.wi_zoom.zoom:key.keyboard.z
 key_keys.armourers_workshop.open-wardrobe:key.keyboard.p
-key_keys.armourers_workshop.undo:key.keyboard.z
 key_key.journeymap.zoom_in:key.keyboard.equal
 key_key.journeymap.zoom_out:key.keyboard.minus
 key_key.journeymap.minimap_type:key.keyboard.left.bracket
 key_key.journeymap.minimap_preset:key.keyboard.backslash
 key_key.journeymap.create_waypoint:key.keyboard.b
-key_key.journeymap.toggle_waypoints:key.keyboard.z
 key_key.journeymap.fullscreen_create_waypoint:key.keyboard.b
 key_key.journeymap.fullscreen_chat_position:key.keyboard.c
 key_key.journeymap.map_toggle_alt:key.keyboard.j

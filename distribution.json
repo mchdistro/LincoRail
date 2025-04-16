@@ -336,6 +336,16 @@
           }
         },
         {
+          "id": "net.wurstclient.zoom:wi_zoom:1.6-MC1.20.1@jar",
+          "name": "WI Zoom",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 155225,
+            "url": "https://github.com/mchdistro/LincoRail/raw/main/servers/LincoRail-1.20.1/fabricmods/required/WI-Zoom-1.6-MC1.20.1.jar",
+            "MD5": "402e43eac5ceb006c20b19928f880fda"
+          }
+        },
+        {
           "id": "iris.properties",
           "name": "iris.properties",
           "type": "File",
@@ -350,8 +360,9 @@
           "name": "options.txt",
           "type": "File",
           "artifact": {
-            "size": 5435,
+            "size": 5371,
             "url": "https://github.com/mchdistro/LincoRail/raw/main/servers/LincoRail-1.20.1/files/options.txt",
+            "MD5": "5a5a0a1d6639d2d82326860d12e18834",
             "path": "options.txt"
           }
         },
